@@ -1,0 +1,237 @@
+/*
+Theme Name: Salty Sea Doggos Theme
+Theme URI: http://saltyseadoggos.com
+Author: Daniel Palencia
+Version: 1.337
+*/
+
+@import url('bootstrap/css/bootstrap.min.css');
+@import url('css/rpg-awesome.min.css');
+
+/* Custom Font */
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style:  normal;
+    font-weight: 400;
+    src: url(fonts/BebasNeue-Regular.otf) format('woff');
+  }
+  
+  /* Gallery Stuff */
+  
+  .gal-item {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Buttons */ 
+  .btn-primary, .btn {
+    color: #fff;
+    background-color: #ff9c49;
+    border-color: #ff9c49;
+    font-family: 'Bebas Neue', Arial;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  
+  .btn-primary:hover, .btn:hover {
+    background-color: #fff;
+    border-color: #ff9c49;
+    color: #ff9c49;
+  }
+  
+  .btn-primary:focus, .btn:focus {
+    border-color: #ffff;
+    box-shadow: 0 0 0 .2rem #ff9c49;
+  }
+  
+  .btn.disabled, .btn.disabled {
+    background-color: #ff9c49;
+    border-color: #ff9c49;
+  }
+  
+  /* Heading Section */
+  .doggo-heading {
+    width: 424px;
+  }
+  
+  /* Modal section */
+  
+  .modal-content {
+    background: url('img/parchment.jpg');
+      background-repeat: repeat;
+      background-size: contain;
+  }
+  
+  .modal-header {
+    border: none;
+  }
+  
+  /* Navbar Section */
+  .top-logo {
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .top-logo h1 {
+    color: #fff;
+  }
+  
+  /* Navbar */
+  
+  .navbar-brand {
+    font-size: 25px;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  /*
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  */
+  .navbar-dark {
+    font-family: 'Dancing Script', cursive, Arial;
+    font-size: 30px;
+  }
+  
+  .bg-dark {
+    background-color :#000 !important;
+  }
+  
+  body {
+     background-image: url("img/background.jpg");
+     background-size: contain;
+     background-repeat: repeat;
+  }
+  
+  #slider {
+    border: 4px solid #f4e0bd;
+    border-radius: 3px;
+  }
+  
+  .parchment {
+    background-image: url("img/parchment.jpg");
+    background-repeat: repeat;
+    border-radius: 3px;
+    background-size: contain;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive, Arial;
+    color: #000;
+  }
+  
+  p {
+    color: #000;
+  }
+  
+  .ultros {
+      position: fixed;
+      bottom: -567px;
+      right: 0px;
+      z-index: -1;
+  }
+  
+  
+  .ultros-img {
+      width: 396px;
+      height: auto;
+  }
+  
+  
+  /* What We do Icons */
+  
+  .doggos-ra {
+    width: 150px;
+    font-size: 95px;
+    margin: 0 auto;
+  }
+  
+  /* Porky BG with text section */
+  
+  .porky {
+    background-image: url('img/porky.png');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0px !important;
+    font-family: 'Bebas Neue', Arial;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  /* Porky BG position */
+  @media (min-width: 1201px) {
+    .porky {
+      background-position-x: -50px;
+    }
+  }
+  
+  .porky a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .porky-links {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 0px;
+  }
+  
+  .porky-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Mobile styles */
+  
+  @media (max-width: 1200px) {
+    .ultros {
+      bottom: 0px;
+      right: 0px;
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      max-width: unset;
+    }
+  
+    .ultros-img {
+      width: 100%;
+    }
+  
+    .doggo-heading {
+      width: 100%;
+      display: block;
+    }
+    
+    .doggo-inner {
+      width: 100%;
+      display: block !important;
+      text-align: center !important;
+  
+    }
+  
+    .doggo-head-text {
+      display: block !important;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .porky {
+      height: 264px;
+      font-size: 15px;
+    }
+    
+    .porky-btn {
+      font-size: 18px;
+    }
+  
+  }
+
+  
