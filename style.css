@@ -5,8 +5,11 @@ Author: Daniel Palencia
 Version: 1.337
 */
 
-@import url('bootstrap/css/bootstrap.min.css');
-@import url('css/rpg-awesome.min.css');
+@import url('assets/css/bootstrap.min.css');
+@import url('assets/css/rpg-awesome.min.css');
+
+@font-face{font-family:RPGAwesome;src:url(assets/fonts/rpgawesome-webfont.eot?v=0.1.0);src:url(assets/fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0) format("embedded-opentype"),url(assets/fonts/rpgawesome-webfont.woff?v=0.1.0) format("woff"),url(assets/fonts/rpgawesome-webfont.ttf?v=0.1.0) format("truetype"),url(assets/fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome) format("svg");}
+
 
 /* Custom Font */
 
@@ -14,7 +17,7 @@ Version: 1.337
     font-family: 'Bebas Neue';
     font-style:  normal;
     font-weight: 400;
-    src: url(fonts/BebasNeue-Regular.otf) format('woff');
+    src: url('assets/fonts/BebasNeue-Regular.otf') format('woff');
   }
   
   /* Gallery Stuff */
@@ -59,7 +62,7 @@ Version: 1.337
   /* Modal section */
   
   .modal-content {
-    background: url('img/parchment.jpg');
+    background: url('assets/images/parchment.jpg');
       background-repeat: repeat;
       background-size: contain;
   }
@@ -94,7 +97,7 @@ Version: 1.337
   }
   */
   .navbar-dark {
-    font-family: 'Dancing Script', cursive, Arial;
+    font-family: 'Dancing Script', Arial;
     font-size: 30px;
   }
   
@@ -103,7 +106,7 @@ Version: 1.337
   }
   
   body {
-     background-image: url("img/background.jpg");
+     background-image: url("assets/images/background.jpg");
      background-size: contain;
      background-repeat: repeat;
   }
@@ -114,14 +117,14 @@ Version: 1.337
   }
   
   .parchment {
-    background-image: url("img/parchment.jpg");
+    background-image: url("assets/images/parchment.jpg");
     background-repeat: repeat;
     border-radius: 3px;
     background-size: contain;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Dancing Script', cursive, Arial;
+    font-family: 'Dancing Script', Arial;
     color: #000;
   }
   
@@ -154,7 +157,7 @@ Version: 1.337
   /* Porky BG with text section */
   
   .porky {
-    background-image: url('img/porky.png');
+    background-image: url('assets/images/porky.png');
     height: 450px;
     background-size: cover;
     background-repeat: no-repeat;

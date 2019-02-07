@@ -1,4 +1,6 @@
-
+<?php 
+  get_header();
+?>
   <body>
       <div class="modal" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
@@ -60,36 +62,36 @@
     </div>
     <main class="container mt-3 mb-4">
         <div class="container mb-2 text-center">
-          <img width="350" class="img-fluid" src="img/doggos-logo.png" />
+          <img width="350" class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/doggos-logo.png" />
         </div>
         <div id="slider" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/s1.png">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s1.png">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/s2.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s2.jpg">
             </div>        
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/s3.png">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s3.png">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/s4.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s4.jpg">
             </div>
              <div class="carousel-item">
-              <img class="d-block w-100" src="img/s5.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s5.jpg">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/s6.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s6.jpg">
             </div>
              <div class="carousel-item">
-              <img class="d-block w-100" src="img/s7.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s7.jpg">
             </div>
              <div class="carousel-item">
-              <img class="d-block w-100" src="img/s8.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s8.jpg">
             </div>
              <div class="carousel-item">
-              <img class="d-block w-100" src="img/s9.jpg">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/s9.jpg">
             </div>
           </div>
           <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
@@ -156,3 +158,6 @@
           </div>
         </div>
      </main>
+<?php 
+  get_footer();      
+?>
