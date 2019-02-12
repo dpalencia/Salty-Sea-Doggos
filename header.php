@@ -1,5 +1,4 @@
 <?php ?>
-
 <!-- 
 YARR WE BE PIRATES
 
@@ -13,19 +12,14 @@ YARR WE BE PIRATES
     ^^^^      ^^^^     ^^^    ^^
          ^^^^      ^^^
 -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+  <?php wp_head(); ?>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/rpg-awesome.min.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 
@@ -35,5 +29,8 @@ YARR WE BE PIRATES
 
     <title>Ahoy! Salty Sea Doggos!</title>
   </head>
+  <body>
 
-<?php ?>
+
+
+
