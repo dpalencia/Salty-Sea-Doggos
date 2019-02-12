@@ -4,10 +4,6 @@ Theme URI: http://saltyseadoggos.com
 Author: Daniel Palencia
 Version: 1.337
 */
-
-@import url('assets/css/bootstrap.min.css');
-@import url('assets/css/rpg-awesome.min.css');
-
 @font-face{font-family:RPGAwesome;src:url(assets/fonts/rpgawesome-webfont.eot?v=0.1.0);src:url(assets/fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0) format("embedded-opentype"),url(assets/fonts/rpgawesome-webfont.woff?v=0.1.0) format("woff"),url(assets/fonts/rpgawesome-webfont.ttf?v=0.1.0) format("truetype"),url(assets/fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome) format("svg");}
 
 
@@ -91,11 +87,6 @@ Version: 1.337
     justify-content: flex-end;
   }
   
-  /*
-  .navbar-nav {
-    margin: 0 auto;
-  }
-  */
   .navbar-dark {
     font-family: 'Dancing Script', Arial;
     font-size: 30px;
