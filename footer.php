@@ -1,6 +1,6 @@
 <?php ?>
-    <footer class="container pt-2 pb-2 mt-3 mb-3">
-          <div class="row parchment">
+    <footer class="container parchment pt-2 pb-2 mt-3 mb-3">
+          <div class="row">
               <div class="col-lg-6 col-md-12">
                <h2>How to Reach Us</h2>
                 <div class="row porky p-1 pt-3 m-3">

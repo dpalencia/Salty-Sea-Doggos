@@ -4,8 +4,8 @@ Theme URI: http://saltyseadoggos.com
 Author: Daniel Palencia
 Version: 1.337
 */
-@font-face{font-family:RPGAwesome;src:url(assets/fonts/rpgawesome-webfont.eot?v=0.1.0);src:url(assets/fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0) format("embedded-opentype"),url(assets/fonts/rpgawesome-webfont.woff?v=0.1.0) format("woff"),url(assets/fonts/rpgawesome-webfont.ttf?v=0.1.0) format("truetype"),url(assets/fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome) format("svg");}
 
+@font-face{font-family:RPGAwesome;src:url(assets/fonts/rpgawesome-webfont.eot?v=0.1.0);src:url(assets/fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0) format("embedded-opentype"),url(assets/fonts/rpgawesome-webfont.woff?v=0.1.0) format("woff"),url(assets/fonts/rpgawesome-webfont.ttf?v=0.1.0) format("truetype"),url(assets/fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome) format("svg");}
 
 /* Custom Font */
 
@@ -16,6 +16,12 @@ Version: 1.337
     src: url('assets/fonts/BebasNeue-Regular.otf') format('woff');
   }
   
+
+  /* Home page */
+  .front-container {
+    padding: 0px;
+  }
+
   /* Gallery Stuff */
   
   .gal-item {
@@ -79,6 +85,9 @@ Version: 1.337
   
   /* Navbar */
   
+  .navbar {
+    min-height: 125px;
+  }
   .navbar-brand {
     font-size: 25px;
   }
@@ -114,6 +123,7 @@ Version: 1.337
     background-size: contain;
   }
   
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Dancing Script', Arial;
     color: #000;

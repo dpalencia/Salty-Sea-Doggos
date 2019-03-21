@@ -2,10 +2,7 @@
   get_header();
 ?>
 
-    <main class="container mt-3 mb-4">
-        <div class="mb-2 text-center">
-          <img width="350" class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/doggos-logo.png" />
-        </div>
+    <main class="container front-container mt-3 mb-4">
         <div id="slider" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -45,7 +42,7 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <div class="parchment pt-2 pb-2 mt-3 mb-3">
+        <div class="parchment container pt-2 pb-2 mt-3 mb-3">
           <h2 class="text-center">Who We Are</h2>
           <p class="text-center">The Salty Sea Doggos are an Alliance guild on the Emerald Dream US realm in the CST time zone. Our tight knit community provides members an avenue to play and socialize in a safe environment free of toxic online behavior. The guild is structured with the best interest of its members in mind and backed by a strong officer core prepared to enforce our rules. We're proud of our guild and everything we've accomplished together. Many of us are very close friends and treat one another with respect regardless of age, sex, gender, religious beliefs, or differences in opinion.</p>
           <p class="text-center">All members old and new are expected to follow our rules and meet our standards. In doing so you will earn our respect, trust, and friendship.</p>
