@@ -23,17 +23,24 @@ YARR WE BE PIRATES
 
     <title>Ahoy! Salty Sea Doggos!</title>
   </head>
-  <body>
+  <body>n
     <div class="container bg-dark">
-      <a class="navbar-brand float-left" href="#">
+      <a class="navbar-brand float-left" href="<?php echo get_home_url(); ?>">
         <img width="190" class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/doggos-logo.png" />
       </a>
       <nav class="navbar navbar-expand-lg navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+    <div class="collapse navbar-collapse">
+        <?php wp_nav_menu( array( 'theme_location' => 'header-nav', 'container' => 'ul', 'menu_class' => 'navbar-nav') ); ?>
+    </div>
+    </nav>
+</div>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!--
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -57,7 +64,6 @@ YARR WE BE PIRATES
           </li>
         </ul>
       </div>
-    </nav>
-</div>
+ -->
 
 

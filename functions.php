@@ -11,13 +11,30 @@ function doggos_scripts() {
 }
 add_action('wp_enqueue_scripts', 'doggos_scripts');
 
-function register_menus() {
-    register_nav_menus(
-        array ( // Unnamed temp array
-            'header-nav' => __( 'Header Navigation' ),
-            )
-        );
+function register_nav() {
+    register_nav_menu('header-nav', 'Main Navigation');
 }
-add_action('init', 'register_menus');
+add_action('init', 'register_nav');
+
+function bootstrap_menu_classes($classes, $item, $args) {
+    if('header-nav' == $args->theme_location) {
+      $classes[] = 'nav-item';
+    }
+    return $classes;
+}
+add_filter( 'nav_menu_css_class', 'bootstrap_menu_classes', 10, 3 );
+
+
+function bootstrap_menu_links( $atts, $item, $args ) {
+    // Perhaps there's a better way to check for the current post
+    $currentID = get_the_ID();
+    $atts['class'] = 'nav-link';
+    if($item->object_id == $currentID)
+        $atts['class'] .= ' active';
+    return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'bootstrap_menu_links', 10, 3 );
+
+
 
 ?>
