@@ -12,10 +12,12 @@ get_header();
   // Using alternative syntax for if and while.  
   ?>
 
-  <h1 class="text-center"><?php the_title(); ?></h1>
+  <h1 class="text-center"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <?php 
+    the_post_thumbnail( 'post-thumbnail', array('class' => 'img-fluid'));
     the_content();
    ?>
+   <a href="<?php the_permalink(); ?>">Read More</a>
   <?php
     endwhile; 
     endif; 

@@ -5,8 +5,6 @@ Author: Daniel Palencia
 Version: 1.337
 */
 
-@font-face{font-family:RPGAwesome;src:url(assets/fonts/rpgawesome-webfont.eot?v=0.1.0);src:url(assets/fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0) format("embedded-opentype"),url(assets/fonts/rpgawesome-webfont.woff?v=0.1.0) format("woff"),url(assets/fonts/rpgawesome-webfont.ttf?v=0.1.0) format("truetype"),url(assets/fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome) format("svg");}
-
 /* Custom Font */
 
 @font-face {
@@ -20,6 +18,16 @@ Version: 1.337
   /* Home page */
   .front-container {
     padding: 0px;
+  }
+
+  /* Generic inners container padding */
+  .parchment {
+    padding: 20px;
+  }
+
+  /* Blog image padding */
+  .wp-post-image {
+    margin-bottom: 20px;
   }
 
   /* Gallery Stuff */
@@ -55,6 +63,15 @@ Version: 1.337
     background-color: #ff9c49;
     border-color: #ff9c49;
   }
+
+  /* Generic link color */
+  main a {
+    color: #000;
+    text-decoration: underline;
+  }
+  main a:hover {
+    color: #ff9c49;
+  }
   
   /* Heading Section */
   .doggo-heading {
@@ -88,6 +105,12 @@ Version: 1.337
   .navbar {
     min-height: 125px;
   }
+
+  .navbar-container {
+    margin-top: 20px;
+    border-radius: 3px;
+  }
+
   .navbar-brand {
     font-size: 25px;
   }
@@ -107,7 +130,7 @@ Version: 1.337
   
   body {
      background-image: url("assets/images/background.jpg");
-     background-size: contain;
+     background-size: 100%;
      background-repeat: repeat;
   }
   
